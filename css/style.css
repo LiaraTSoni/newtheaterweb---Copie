@@ -1,0 +1,369 @@
+#header a
+{
+	color: #ef7b33;
+	text-decoration: none; 
+	display: block;
+	border-top: 5px solid white;
+	padding: 15px;
+	margin-right: 25px;
+	transition: 0.5s;
+}
+#header
+{
+	width: 100%;
+	margin: 0 auto;
+	background: white;
+	position: fixed;
+	z-index: 10;
+	height: 100px;
+	box-shadow: 0px 8px 15px #aaa;
+
+}
+
+#header a:hover 
+{
+	color: #ff9900;
+	border-top: 5px solid #1A85A4; 
+	transition: 0.5s;
+}
+
+
+
+}
+#slider 
+{ 
+	text-align: center; 
+	width: 1200px;
+
+
+}
+#container
+{
+	background: white;
+	width: 1130px;
+	margin: 0 auto; 
+	padding-top: 82px;
+}
+
+
+
+
+
+#header ul,#footer ul { 
+	list-style-type: none; 
+	margin: 0px; 
+	padding: 0px;
+}
+#header li 
+{
+	display: inline-block;
+	
+	font-size: 25px;
+
+}
+#header ul 
+{
+	text-align: right;
+	font: 50px;
+	margin-right: 80px;
+
+}
+
+#content 
+{ 
+	/* background: white; */
+	width:1130px;
+	/* margin: 0 auto; */ 
+}
+#footer 
+{
+	background-color: #525151; 
+	height: 200px;
+	padding: 10px;
+}
+#footer a
+{
+	color: #ff9900;
+	transition: 0.5s; 
+}
+#footer a:hover  
+{
+	color: #1A85A4;
+	transition: 0.5s;
+}
+
+
+.logo
+{
+	float: left;
+	margin-left: 168px;
+}
+.nav
+{
+	float: right;
+	margin-right: 68px;
+}
+
+.bx-wrapper .bx-viewport 
+{
+	border: 0px;
+	left: 0px ;
+}
+
+.bx-wrapper {
+	margin: 0 auto;
+}
+
+
+
+
+
+.picto 
+{
+
+	padding: 70px 200px 50px 200px;
+	/* width: 1000px; */
+	/* margin: 100px auto; */
+	height: 300px;
+	text-align: center;
+	/* border: 1px solid black */
+
+}
+.picto1
+{
+	float: left;
+	height: 155px;
+	width: 155px;
+	/* border: 1px solid black
+	margin-right: 100px; */
+
+
+}
+
+.picto2
+{
+	float: left;
+	height: 155px;
+	width: 155px;
+	/*border: 1px solid black*/
+	/* margin: 0 auto; */
+	margin-left: 132.5px;
+	/* display: center; */
+	/* padding-left: 100px; */
+
+
+}
+
+.picto3
+{
+	float: right;
+	height: 155px;
+	width: 155px;
+	/* border: 1px solid black */
+}
+/* .picto1, .picto2, .picto3
+{
+	text-align: center;
+} */
+
+
+
+
+.actu2
+{
+	background-color: #F06034;
+	width: 565px;
+	
+	float: right;
+}
+.actu1 
+{
+	background-color: orange;
+	width: 565px;
+	
+	float: left;
+
+}
+.actu1 p, .actu1 h2, .actu2 p, .actu2 h2
+{
+padding: 5px 20px;
+}
+.actu1 a, .actu2 a
+{
+	text-decoration: none;
+	/*display: block; */
+	/*text-align: center;*/
+	padding: 10px 20px;
+	float: right;
+	font-size: 25px;
+	/*border: 5px solid red;*/
+	/*width: 150px;*/
+	background-color: #BC292D;
+	/*height: 30px;*/
+	/*line-height: 30px;*/
+	/*position: right;*/
+	color: white; 
+	transition: 0.5s;
+}
+
+.actu1 a:hover
+{
+	background-color:#1A85A4;
+	color: #ff9900;
+	transition: 0.5s;
+}
+.actu2 a:hover
+{
+	background-color:#1A85A4;
+	color: #ff9900;
+	transition: 0.5s;
+}
+.more a
+{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 10px 20px;
+	transition: 0.5s;
+	
+}
+.more
+{
+	background-color: #BC292D;
+	width: 300px;
+
+	margin: 150px auto;
+	
+}
+.more a:hover
+{
+	background-color:#1A85A4;
+	color: #ff9900;
+	transition: 0.5s;
+}
+
+
+
+
+
+.menubas  a
+{
+	text-decoration: none;
+}
+.informations 
+{
+	float: left;
+	width: 345px;
+	/*border-right: 3px solid black;*/
+	margin: 0;
+	padding: 10px;
+	/* border: 1px solid black; */
+}
+.menubas
+{
+	float: left;
+	width: 345px;
+	margin: 0;
+	padding: 10px;
+	border-left: 2px solid black;
+}
+.reseaux
+{
+	float: right;
+	width: 345px;
+	border-left: 2px solid black;
+	margin: 0;
+	padding: 10px;
+		/* border-right: 2px solid black; */
+}	 
+
+.facebook 
+{
+	background: url(../images/facebook.jpg) no-repeat center; 
+	height: 32px; 
+	width: 32px 
+}
+.facebook:hover 
+{ 
+	background: url(../images/facebook-hover.jpg) no-repeat center; 
+	height: 32px; 
+	width: 32px;
+	 }
+.twitter 
+{
+	background: url(../images/twitter.jpg) no-repeat center; 
+	height: 32px; 
+	width: 32px;
+}
+
+.google 
+{
+	background: url(../images/google+.jpg) no-repeat center; 
+	height: 32px; 
+	width: 32px;
+}
+.reseaux li 
+{
+	display: inline-block;
+	margin-top: 25px;
+
+}
+
+
+
+
+
+.clearfix
+{
+	clear: both;
+}
+a:hover {
+	color: brown; 
+}
+
+body 
+{
+	background: #E4E4E4;  
+}
+body 
+{
+	font-family: 'Oswald', sans-serif; margin: 0;
+}
+.actu1 p::first-letter
+{
+	float: left;
+	font-size: 60px;
+	margin-right: 15px;
+	/* padding-bottom: 5px; */
+	color: red;
+	/* padding-top: 0px; */
+}
+
+.actu2 p::first-letter
+{
+	float: left;
+	font-size: 60px;
+	margin-right: 15px;
+	/* padding-bottom: 5px; */
+	color: red;
+	/* padding-top: 0px; */
+}
+
+/* .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 8;
+} */
+
+.contact p
+{
+	background: orange;
+}
+
