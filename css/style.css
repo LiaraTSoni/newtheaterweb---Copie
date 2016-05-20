@@ -366,4 +366,47 @@ body
 {
 	background: orange;
 }
+ .intro
+ {
+ 	background: #ef7b33;
+ 	/* margin-top: 70px; */
+ 	height: 280px;
+ 	float: left;
+ 	/* border: 1px solid black; */
 
+
+ }
+ /* .intro 
+ {
+ 	text-decoration: none;
+ 	height: 153px;
+ } */
+
+
+ .breaking
+ {
+ 	float: right;
+ 	height: 240px;
+ 	width: 710px;
+ 	padding: 20px;
+ 	background: #ef7b33;
+ }
+
+ .breaking p
+ {
+ 	color: white;
+ }
+
+ .headersaison
+ {
+ 	margin-top: 70px;
+ }
+
+.saisontitre h3
+{
+	text-align: center;
+	width: 450px;
+	display: block;
+
+
+}
