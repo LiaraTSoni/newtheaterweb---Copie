@@ -420,6 +420,30 @@ body
 {
 	width: 380px;
 	/* border: 1px solid black; */
-	margin: 40px auto
+	margin: 70px auto
 
+}
+
+.event1
+{
+	width: 358px;
+	height: 280px;
+	float: left;
+
+}
+
+.event2
+{
+	width: 358px;
+	height: 280px;
+	float: right;
+	
+}
+
+.event3
+{
+	width: 358px;
+	height: 280px;
+	float: right;
+	margin-left: 28px;
 }
