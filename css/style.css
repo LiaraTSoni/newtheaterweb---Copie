@@ -447,3 +447,31 @@ body
 	float: right;
 	margin-left: 28px;
 }
+
+.event4
+{
+	float: left;
+	width: 358px;
+	height: 280px;
+}
+
+.event5
+{
+	float: right;
+	width: 358px;
+	height: 280px;
+
+}
+
+.event6
+{
+	float: right;
+	width: 358px;
+	height: 280px;
+	margin-left: 28px;
+}
+
+.event1,.event2,.event3
+{
+	margin-bottom: 28px;
+}
