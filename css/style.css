@@ -366,6 +366,10 @@ body
 {
 	background: orange;
 }
+
+
+/*======saisonpage=======*/
+
  .intro
  {
  	background: #ef7b33;
@@ -376,11 +380,7 @@ body
 
 
  }
- /* .intro 
- {
- 	text-decoration: none;
- 	height: 153px;
- } */
+ 
 
 
  .breaking
@@ -395,6 +395,14 @@ body
  .breaking p
  {
  	color: white;
+ 	font-size: 14px;
+ 	margin: 0px;
+ }
+
+  .breaking h5
+ {
+  	color: white;
+  	margin: 0px;
  }
 
  .headersaison
@@ -402,11 +410,12 @@ body
  	margin-top: 70px;
  }
 
-.saisontitre h3
+.saisontitre h2
 {
 	text-align: center;
-	width: 450px;
-	display: block;
+}
 
-
+.saisontitre
+{
+	text-align: center;
 }
