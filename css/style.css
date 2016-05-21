@@ -413,9 +413,13 @@ body
 .saisontitre h2
 {
 	text-align: center;
+
 }
 
 .saisontitre
 {
-	text-align: center;
+	width: 380px;
+	/* border: 1px solid black; */
+	margin: 40px auto
+
 }
