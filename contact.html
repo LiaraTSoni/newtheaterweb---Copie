@@ -44,15 +44,19 @@
 			<form method="post" action="traitement.php">
 
 			<p>
-			<label for="nom">Votre nom</label>
+			<label for="nom">Votre nom</label><br/>
 				<input type="text" name="nom" id="nom" autofocus  placeholder="Dupont" />
 			</p>
 <p>
-<label for="prenom">Votre prenom</label>
+<label for="prenom">Votre prenom</label><br/>
 	<input type="text" name="prenom" id="prenom" maxlength="20" placeholder="Marcel" /></p>
-<p><label for="email">Votre email</label>
-	<input type="email" name="email" id="email" placeholder="exemple@gmail.com" /></p>
-	<input type="submit" value="Envoyer" name="bouton">
+<p><label for="email">Votre adresse élèctronique*</label>
+<br/>
+	<input type="email" name="email" id="email" placeholder="exemple@gmail.com" required /></p>
+<p><label for="naissance">Votre date de naissance</label><br/>
+	<input type="date" name="naissance" id="naissance" required /></p>
+	<textarea>Votre message</textarea>
+	<input type="submit" value="Envoyer" name="bouton"/>
 
 	</fieldset>
 			</form>
