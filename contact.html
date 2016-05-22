@@ -6,7 +6,8 @@
 	<link rel="stylesheet" href="css/style.css" />
 
 </head>
-<body>
+<body> 
+
 	<div id="header">
 		<div class="logo">
 			<a href="https://www.reddit.com/">
@@ -33,76 +34,91 @@
 			</ul>
 		</div>
 		<div class="clearfix"></div>
-
+	
 	</div>
+	<div class="banniere"><img src="images/ban.jpg"></div>
+
+
 	<div id="container">
+
 		<div id="content" class="contact">
-		<img src="images/actu1.jpg">
-
-		<div id="formulaire">
-			<fieldset>
-			<form method="post" action="traitement.php">
-
-			<p>
-			<label for="nom">Votre nom</label><br/>
-				<input type="text" name="nom" id="nom" autofocus  placeholder="Dupont" />
-			</p>
-<p>
-<label for="prenom">Votre prenom</label><br/>
-	<input type="text" name="prenom" id="prenom" maxlength="20" placeholder="Marcel" /></p>
-<p><label for="email">Votre adresse élèctronique*</label>
-<br/>
-	<input type="email" name="email" id="email" placeholder="exemple@gmail.com" required /></p>
-<p><label for="naissance">Votre date de naissance</label><br/>
-	<input type="date" name="naissance" id="naissance" required /></p>
-	<textarea>Votre message</textarea>
-	<input type="submit" value="Envoyer" name="bouton"/>
-
-	</fieldset>
-			</form>
-		</div>
 			
-		<div class="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83085.8994010073!2d2.784817347247636!3d49.40069106214571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d5e621cbedd7%3A0x40af13e81644610!2s60200+Compi%C3%A8gne!5e0!3m2!1sen!2sfr!4v1462261577435" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
 
+			<div id="formulaire">
+				<fieldset>
+					<form method="post" action="traitement.php">
 
-			<div id="footer">
-				<div class="informations">adresse/ tel/ contact</div>
-				<div class="menubas">
-					<ul>
-						<li>
-							<a href="">CGV</a>
-						</li>
-						<li>
-							<a href="">Plan du site</a>
-						</li>
-						<li>
-							<a href="">Mentions légales</a>
-						</li>
-						<li>
-							<a href="">Crédits</a>
-						</li>
-					</ul>
-				</div>
-				<div class="reseaux">
-					facebook
-					<ul>
-						<li>
-							<div class="facebook"></div>
-						</li>
-						<li>
-							<div class="twitter"></div>
-						</li>
-						<li>
-							<div class="google"></div>
-						</li>
-					</ul>
+						<p>
+							<label for="nom">Votre nom</label>
+							<br/>
+							<input type="text" name="nom" id="nom" autofocus  placeholder="Dupont" />
+						</p>
+						<p>
+							<label for="prenom">Votre prenom</label>
+							<br/>
+							<input type="text" name="prenom" id="prenom" maxlength="20" placeholder="Marcel" />
+						</p>
+						<p>
+							<label for="email">Votre adresse élèctronique*</label>
+							<br/>
+							<input type="email" name="email" id="email" placeholder="exemple@gmail.com" required/>
+						</p>
+						<p>
+							<label for="naissance">Votre date de naissance</label>
+							<br/>
+							<input type="date" name="naissance" id="naissance" required />
+						</p>
+						<label for="message">Votre message</label>
+						<p><textarea rows="10" cols="50" id="message">Nous contacter</textarea></p>
+						<input type="submit" value="Envoyer" name="bouton"/>
 
-				</div>
-				<div class="clearfix"></div>
+					</fieldset>
+				</form>
 			</div>
+
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83085.8994010073!2d2.784817347247636!3d49.40069106214571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d5e621cbedd7%3A0x40af13e81644610!2s60200+Compi%C3%A8gne!5e0!3m2!1sen!2sfr!4v1462261577435" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+			</div>
+			<div class="clearfix"></div>
 		</div>
+
+		<div id="footer">
+			<div class="informations">adresse/ tel/ contact</div>
+			<div class="menubas">
+				<ul>
+					<li>
+						<a href="">CGV</a>
+					</li>
+					<li>
+						<a href="">Plan du site</a>
+					</li>
+					<li>
+						<a href="">Mentions légales</a>
+					</li>
+					<li>
+						<a href="">Crédits</a>
+					</li>
+				</ul>
+			</div>
+			<div class="reseaux">
+				facebook
+				<ul>
+					<li>
+						<div class="facebook"></div>
+					</li>
+					<li>
+						<div class="twitter"></div>
+					</li>
+					<li>
+						<div class="google"></div>
+					</li>
+				</ul>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
 	</div>
 
 </body>

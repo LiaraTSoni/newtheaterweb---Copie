@@ -529,11 +529,27 @@ body
 fieldset
 {
 	background: #339899;
+	float: left;
+	color: white;
+	border: none;
+	padding: 20px;
+	margin-bottom: 80px;
 }
 
 #formulaire p
 {
 	background: #339899;
+
 }
 
+.map
+{
+	float: right;
+}
+
+.banniere
+{
+	padding-top: 100px;
+	height: 275px;
+}
 
