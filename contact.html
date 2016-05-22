@@ -10,7 +10,7 @@
 
 	<div id="header">
 		<div class="logo">
-			<a href="https://www.reddit.com/">
+			<a href="index.html">
 				<img src="images/théâtre.jpg" />
 			</a>
 		</div>
@@ -36,7 +36,7 @@
 		<div class="clearfix"></div>
 	
 	</div>
-	<div class="banniere"><img src="images/ban.jpg"></div>
+	<div class="banniere"><div class="acc"><a href="index.html">ACCUEIL</a></div><img src="images/ban.jpg"></div>
 
 
 	<div id="container">
@@ -49,9 +49,9 @@
 					<form method="post" action="traitement.php">
 
 						<p>
-							<label for="nom">Votre nom</label>
+							<label for="nom">Votre nom*</label>
 							<br/>
-							<input type="text" name="nom" id="nom" autofocus  placeholder="Dupont" />
+							<input type="text" name="nom" id="nom" autofocus  placeholder="Dupont" required />
 						</p>
 						<p>
 							<label for="prenom">Votre prenom</label>
@@ -70,14 +70,14 @@
 						</p>
 						<label for="message">Votre message</label>
 						<p><textarea rows="10" cols="50" id="message">Nous contacter</textarea></p>
-						<input type="submit" value="Envoyer" name="bouton"/>
+						<input type="submit" value="Envoyer" name="bouton" id="envoie" />
 
 					</fieldset>
 				</form>
 			</div>
 
 			<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83085.8994010073!2d2.784817347247636!3d49.40069106214571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d5e621cbedd7%3A0x40af13e81644610!2s60200+Compi%C3%A8gne!5e0!3m2!1sen!2sfr!4v1462261577435" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83085.8994010073!2d2.784817347247636!3d49.40069106214571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d5e621cbedd7%3A0x40af13e81644610!2s60200+Compi%C3%A8gne!5e0!3m2!1sen!2sfr!4v1462261577435" width="600" height="535" frameborder="0" style="border:0" allowfullscreen></iframe>
 				
 			</div>
 			<div class="clearfix"></div>

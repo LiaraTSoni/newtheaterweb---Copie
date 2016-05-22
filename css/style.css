@@ -534,6 +534,7 @@ fieldset
 	border: none;
 	padding: 20px;
 	margin-bottom: 80px;
+	margin-left: 50px;
 }
 
 #formulaire p
@@ -545,11 +546,47 @@ fieldset
 .map
 {
 	float: right;
+	margin-right:50px;
 }
 
 .banniere
 {
 	padding-top: 100px;
 	height: 275px;
+	position: relative;
 }
 
+.acc
+{
+	position: absolute;
+	left: 125px;
+	bottom: 75px;
+	font-size: 19px;
+	color: white;
+	font-weight: lighter;
+	border-right: 1px solid white;
+	padding-right: 14px;
+	padding-bottom: 8px;
+	font-family: arial;
+
+}
+.acc a
+{
+	text-decoration: none;
+	color: white;
+}
+#envoie
+{
+	background: #BC292D;
+	color: white;
+	border: none;
+	transition: 0.5s;
+	padding: 5px;
+}
+
+#envoie:hover
+{
+	background: #1A85A4;
+	color: #ff9900;
+	transition: 0.5s;
+}
