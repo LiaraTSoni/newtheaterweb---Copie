@@ -590,3 +590,22 @@ fieldset
 	color: #ff9900;
 	transition: 0.5s;
 }
+
+
+/*=========billeterie=========*/
+
+
+
+.bill2
+{
+	background: #e36746;
+	color: white;
+	width: 275px;
+}
+
+.bill2 ul
+{
+	padding: 10px;
+	list-style-type: none;
+	margin: 0px; 
+}
