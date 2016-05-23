@@ -456,11 +456,13 @@ body
 	transition: 0.5s;
 }
 
-.event4
+.event4 a
 {
+	background: url(../images/event_4.jpg);
 	float: left;
 	width: 358px;
 	height: 280px;
+	transition: 0.5s;
 }
 
 .event5
@@ -479,7 +481,7 @@ body
 	margin-left: 28px;
 }
 
-.event1 a,.event2 a,.event3 a,.event4,.event5,.event6,.event7,.event8,.event9
+.event1 a,.event2 a,.event3 a,.event4 a,.event5,.event6,.event7,.event8,.event9
 {
 	margin-bottom: 28px;
 }
@@ -519,10 +521,6 @@ body
 	height: 280px; 
 	transition: 0.5s;
 	position: absolute;
-
-	
-
-
 }
 .event2 a:hover
 {
@@ -530,7 +528,6 @@ body
 	width: 358px;
 	height: 280px; 
 	transition: 0.5s;
-	/* position: absolute; */
 }
 .event3 a:hover
 {
@@ -538,8 +535,13 @@ body
 	width: 358px;
 	height: 280px; 
 	transition: 0.5s;
-	/* position: absolute; */
 }
+.event4 a:hover
+{
+	background: url(../images/over_4.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
 
 
 
