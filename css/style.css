@@ -424,12 +424,14 @@ body
 
 }
 
-.event1
+.event1 a
 {
+	background: url(../images/event1_07.jpg) no-repeat;
 	width: 358px;
 	height: 280px;
 	float: left;
 	position: relative;
+	transition: 0.5s;
 	
 
 }
@@ -508,13 +510,12 @@ body
 
 .event1 a:hover
 {
-	background: url(../images/over_1.jpg) no-repeat center;
+	background: url(../images/over_1.jpg) no-repeat ;
 	width: 358px;
 	height: 280px; 
 	transition: 0.5s;
 	position: absolute;
-	top: 0px;
-	left: 0px;
+
 	
 
 
