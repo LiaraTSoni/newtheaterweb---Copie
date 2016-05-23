@@ -436,20 +436,24 @@ body
 
 }
 
-.event2
+.event2 a
 {
+	background: url(../images/event_2_09.jpg);
 	width: 358px;
 	height: 280px;
 	float: right;
+	transition: 0.5s;
 	
 }
 
-.event3
+.event3 a
 {
+	background: url(../images/event_3_11.jpg);
 	width: 358px;
 	height: 280px;
 	float: right;
 	margin-left: 28px;
+	transition: 0.5s;
 }
 
 .event4
@@ -475,7 +479,7 @@ body
 	margin-left: 28px;
 }
 
-.event1,.event2,.event3,.event4,.event5,.event6,.event7,.event8,.event9
+.event1 a,.event2 a,.event3 a,.event4,.event5,.event6,.event7,.event8,.event9
 {
 	margin-bottom: 28px;
 }
@@ -519,6 +523,22 @@ body
 	
 
 
+}
+.event2 a:hover
+{
+	background: url(../images/over_2.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+	/* position: absolute; */
+}
+.event3 a:hover
+{
+	background: url(../images/over_3.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+	/* position: absolute; */
 }
 
 
