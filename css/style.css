@@ -465,53 +465,68 @@ body
 	transition: 0.5s;
 }
 
-.event5
+.event5 a
 {
+	background: url(../images/event_5.jpg);
 	float: right;
 	width: 358px;
 	height: 280px;
+	transition: 0.5s;
 
 }
 
-.event6
+.event6 a
 {
+	background: url(../images/event_6.jpg);
 	float: right;
 	width: 358px;
 	height: 280px;
 	margin-left: 28px;
+	transition: 0.5s;
 }
 
-.event1 a,.event2 a,.event3 a,.event4 a,.event5,.event6,.event7,.event8,.event9
+.event1 a,.event2 a,.event3 a,.event4 a,.event5 a,.event6 a,.event7 a,.event8 a,.event9 a
 {
 	margin-bottom: 28px;
 }
 
-.event7
+.event7 a
 {
+	background: url(../images/event_7.jpg);
 	float: left;
 	width: 358px;
 	height: 280px;
+	transition: 0.5s;
 }
 
-.event8
+.event8 a
 {
+	background: url(../images/event_8.jpg);
 	float: right;
 	width: 358px;
 	height: 280px;
+	transition: 0.5s;
 
 }
 
-.event9
+.event9 a
 {
+	background: url(../images/event_9.jpg);
 	float: right;
 	width: 358px;
 	height: 280px;
 	margin-left: 28px;
+	transition: 0.5s;
 }
 
-.event10
+.event10 a
 {
+	background: url(../images/event_10.jpg);
 	margin-bottom: 90px;
+	width: 358px;
+	height: 280px;
+	transition: 0.5s;
+	float: left;
 }
 
 .event1 a:hover
@@ -539,6 +554,45 @@ body
 .event4 a:hover
 {
 	background: url(../images/over_4.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+}
+.event5 a:hover
+{
+	background: url(../images/over_5.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+}
+.event6 a:hover
+{
+	background: url(../images/over_6.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+}
+.event7 a:hover
+{
+	background: url(../images/over_7.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+}.event8 a:hover
+{
+	background: url(../images/over_8.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+}.event9 a:hover
+{
+	background: url(../images/over_9.jpg) no-repeat ;
+	width: 358px;
+	height: 280px; 
+	transition: 0.5s;
+}.event10 a:hover
+{
+	background: url(../images/over_10.jpg) no-repeat ;
 	width: 358px;
 	height: 280px; 
 	transition: 0.5s;
