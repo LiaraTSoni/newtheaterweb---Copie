@@ -97,6 +97,11 @@
 {
 	float: left;
 	margin-left: 168px;
+	/* margin-top: 0px; */
+	height: 130px;
+	/* border: 1px solid black; */
+	width: 160px;
+
 }
 .nav
 {
@@ -268,46 +273,69 @@ padding: 5px 20px;
 .menubas
 {
 	float: left;
-	width: 345px;
+	width: 300px;
 	margin: 0;
 	padding: 10px;
-	border-left: 2px solid black;
+	margin-left: 30px;
+	/* border: 1px solid black; */
+	line-height: 30px;
+
 }
 .reseaux
 {
 	float: right;
 	width: 345px;
-	border-left: 2px solid black;
-	margin: 0;
+	/* border-left: 2px solid black; */
+	/* margin: 0; */
 	padding: 10px;
 		/* border-right: 2px solid black; */
 }	 
 
 .facebook 
 {
-	background: url(../images/facebook.jpg) no-repeat center; 
+	background: url(../images/réseaux_31.jpg) no-repeat center; 
 	height: 32px; 
-	width: 32px 
+	width: 32px;
+	transition: 0.5s;
 }
 .facebook:hover 
 { 
-	background: url(../images/facebook-hover.jpg) no-repeat center; 
+	background: url(../images/reseaux_hover_31.jpg) no-repeat center; 
 	height: 32px; 
 	width: 32px;
+	transition: 0.5s;
 	 }
 .twitter 
 {
-	background: url(../images/twitter.jpg) no-repeat center; 
+	background: url(../images/réseaux_33.jpg) no-repeat center; 
 	height: 32px; 
 	width: 32px;
+	margin-left: 20px;
+	transition: 0.5s;
 }
+.twitter:hover 
+{ 
+	background: url(../images/reseaux_hover_33.jpg) no-repeat center; 
+	height: 32px; 
+	width: 32px;
+	transition: 0.5s;
+	 }
 
 .google 
 {
-	background: url(../images/google+.jpg) no-repeat center; 
+	background: url(../images/réseaux_35.jpg) no-repeat center; 
 	height: 32px; 
-	width: 32px;
+	width: 45px;
+	margin-left: 20px;
+	transition: 0.5s;
 }
+.google:hover 
+{ 
+	background: url(../images/reseaux_hover_35.jpg) no-repeat center; 
+	height: 32px; 
+	width: 45px;
+	transition: 0.5s;
+	 }
 .reseaux li 
 {
 	display: inline-block;
