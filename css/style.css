@@ -650,16 +650,17 @@ fieldset
 
 .banniere
 {
-	padding-top: 100px;
+	padding-bottom: 80px;
 	height: 275px;
 	position: relative;
+	margin: 0 auto;
 }
 
 .acc
 {
 	position: absolute;
-	left: 125px;
-	bottom: 75px;
+	left: 90px;
+	bottom: 155px;
 	font-size: 19px;
 	color: white;
 	font-weight: lighter;
